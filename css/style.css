@@ -148,7 +148,7 @@ grid-area: social_media_button;
   text-align: center;
   vertical-align: middle;
   position: relative;
-  transform: translateY(20%);
+  transform: translateY(15%);
 
 
 }
@@ -297,12 +297,11 @@ float:left;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-areas: "logos"
-   "backgrounds"
-   "profile_detail"
-   "social_media_button"
-   "quick_link";
+    grid-template-columns: 25% 25% 50%;
+    grid-template-areas: "logos logos logos"
+   "backgrounds backgrounds backgrounds"
+   "social_media_button profile_detail profile_detail"
+   "social_media_button quick_link quick_link";
     width: 400px;
     height: 800px;
     border: 2px solid black;
