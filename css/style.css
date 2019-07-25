@@ -1,0 +1,520 @@
+html,body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+margin:0;
+padding:0;
+height:100%;
+
+}
+
+
+.container {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-areas: "logos logos logos"
+ "backgrounds backgrounds backgrounds"
+ "social_media_button profile_detail profile_detail"
+ "social_media_button quick_link quick_link";
+  width: 400px;
+  height: 800px;
+  border: 2px solid black;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  padding: 0;
+
+
+}
+
+h1 {
+
+font-size:40px;
+
+
+}
+
+
+h5{
+
+  letter-spacing: 1px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+
+
+}
+
+p {
+
+  letter-spacing: 0.1em;
+      color: white;
+      font-size: 18px;
+      font-family: sans-serif;
+
+}
+
+
+.logo {
+  grid-area: logos;
+  margin-top: auto;
+  padding: 0;
+  height: 50%;
+  margin-bottom: auto;
+
+}
+
+.logo > img {
+
+  vertical-align: middle;
+  /* height: 50%; */
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+
+}
+
+.profile_pic {
+
+text-align:center;
+
+}
+
+
+.profile_pic img {
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  top: -54px;
+  right: 148px;
+
+
+}
+
+.background {
+  grid-area: backgrounds;
+background-size:cover;
+background-image: url('https://previews.123rf.com/images/thailerd/thailerd1506/thailerd150600008/41319178-background-technology-blue-tech-background-with-shining-abstract-objects-vector-tech-circle-and-tech.jpg');
+background-repeat: no-repeat;
+height:100%;
+width:100%;
+
+
+}
+
+
+.profile_more_details {
+
+text-align:center;
+
+}
+
+.profile_details {
+text-align:center;
+grid-area: profile_detail;
+
+}
+
+
+.social_media_buttons {
+  background-color:#0000004a;
+text-align:center;
+grid-area: social_media_button;
+
+}
+
+.social_media_buttons ul {
+
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(20%);
+
+
+}
+
+
+.social_media_buttons a {
+
+text-decoration: none;
+
+}
+
+.quick_links {
+
+grid-area: quick_link;
+
+
+}
+
+
+i {
+
+  color: white;
+      font-size: 30px;
+      border-radius: 50%;
+      /* border: 1px solid; */
+      padding: 9px;
+      background: #0808081a;
+
+}
+
+i:hover {
+
+background-color:darkgrey;
+color:black;
+}
+
+
+ul {
+margin:0px;
+padding:0px;
+list-style-type: none;
+
+}
+
+
+ul li {
+margin:7px;
+    /* display: inline; */
+
+}
+
+
+ul.sLink li {
+    line-height: 65px;
+    display: block;
+
+}
+
+
+ul.sLink li:hover {
+  display: block;
+background-color:darkgrey;
+
+}
+
+
+.sLink span {
+font-size:30px;
+color:white;
+
+}
+.container_overlay i {
+  font-size:64px;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+background:none !important;
+
+}
+
+.sLink a{
+text-decoration: none;
+
+
+
+}
+
+
+.container_overlay {
+
+visibility: hidden;
+position: absolute;
+margin:0;
+padding:0;
+background-color:#000000b0;
+width:100%;
+height:100%;
+z-index: 9999;
+
+}
+
+
+.sociallinks {
+  text-align: center;
+display: block;
+float:right;
+width:250px;
+height:100%;
+
+}
+
+.closeWindow {
+
+float:left;
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html,body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+  margin:0;
+  padding:0;
+  height:100%;
+
+  }
+
+
+  .container {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "logos"
+   "backgrounds"
+   "profile_detail"
+   "social_media_button"
+   "quick_link";
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 0;
+
+
+  }
+
+  h5{
+
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+  }
+
+  h1 {
+
+  font-size:40px;
+
+
+  }
+
+
+  .logo {
+    grid-area: logos;
+    margin-top: auto;
+    padding: 0;
+    height: 50%;
+    margin-bottom: auto;
+
+  }
+
+  .logo > img {
+
+    vertical-align: middle;
+    /* height: 50%; */
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+
+  }
+
+  .profile_pic {
+
+  text-align:center;
+
+  }
+
+
+  .profile_pic img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    position: relative;
+    top: -54px;
+    right: 148px;
+
+
+  }
+
+  .background {
+    grid-area: backgrounds;
+  background-size:cover;
+  background-image: url('https://previews.123rf.com/images/thailerd/thailerd1506/thailerd150600008/41319178-background-technology-blue-tech-background-with-shining-abstract-objects-vector-tech-circle-and-tech.jpg');
+  background-repeat: no-repeat;
+  height:100%;
+  width:100%;
+
+
+  }
+
+
+  .profile_more_details {
+
+  text-align:center;
+
+  }
+
+  .profile_details {
+  text-align:center;
+  grid-area: profile_detail;
+
+  }
+
+
+  .social_media_buttons {
+  text-align:center;
+  grid-area: social_media_button;
+
+  }
+
+
+  .social_media_buttons a {
+
+  text-decoration: none;
+
+  }
+
+
+  .quick_links {
+
+  grid-area: quick_link;
+
+
+  }
+
+
+  i {
+
+    color: white;
+        font-size: 24px;
+        border-radius: 50%;
+        /* border: 1px solid; */
+        padding: 9px;
+        background: #0808081a;
+
+  }
+
+  i:hover {
+
+  background-color:darkgrey;
+  color:black;
+  }
+
+
+  ul {
+  margin:0px;
+  padding:0px;
+  list-style-type: none;
+
+  }
+
+
+  ul li {
+  margin:7px;
+      display: inline;
+
+  }
+
+
+  ul.sLink li {
+      line-height: 65px;
+      display: block;
+
+  }
+
+
+  ul.sLink li:hover {
+  background-color:darkgrey;
+
+  }
+
+
+
+
+
+
+
+
+  .sLink span {
+  font-size:30px;
+  color:white;
+
+  }
+  .container_overlay i {
+    font-size:64px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+  background:none !important;
+
+  }
+
+
+  .container_overlay {
+
+  visibility: hidden;
+  position: absolute;
+  margin:0;
+  padding:0;
+  background-color:#000000b0;
+  width:100%;
+  height:100%;
+  z-index: 9999;
+
+  }
+
+
+  .sociallinks {
+  display: block;
+  float:right;
+  width:250px;
+  height:100%;
+
+  }
+
+  .closeWindow {
+
+  float:left;
+
+  }
+
+}
